@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="d365" constructor="MaskedTextBox" version="0.0.1" display-name-key="MaskedTextBox" description-key="MaskedTextBox description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="value" display-name-key="Value" description-key="The attribute value" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="mask" display-name-key="Mask" description-key="The masking string that defines the mask's behavior. A backslash will escape any character. Special format characters are: '9': [0-9] 'a': [a-zA-Z] '*': [a-zA-Z0-9]" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="maskChar" display-name-key="Mask Character" description-key="The character to show in place of unfilled characters of the mask." of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
