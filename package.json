@@ -1,5 +1,5 @@
 {
-  "name": "pcf-project",
+  "name": "d365MaskedTextBox",
   "version": "1.0.0",
   "description": "Project containing your PowerApps Component Framework (PCF) control.",
   "scripts": {
@@ -15,6 +15,13 @@
     "rebuild": "pcf-scripts rebuild",
     "start": "pcf-scripts start"
   },
+  "keywords": [
+    "pcf",
+    "react",
+    "PowerApps Control Framework"
+  ],
+  "author": "Rex Kenley Tan",
+  "license": "MIT",
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^10.17.17",
